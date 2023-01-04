@@ -1,0 +1,23 @@
+{
+  "name": "pensioner-detail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "colin",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "jest": "^29.2.0"
+  }
+}

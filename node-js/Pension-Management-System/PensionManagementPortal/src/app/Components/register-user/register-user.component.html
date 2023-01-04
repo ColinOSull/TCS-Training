@@ -1,0 +1,18 @@
+<div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+    <input type="text" [(ngModel)]="user.name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+<br />
+
+<div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+    <input type="text" [(ngModel)]="user.email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+<br />
+
+<div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
+    <input type="text" [(ngModel)]="user.password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  </div>
+<br />
+<button  type="button" style="position: relative; align-items: center; margin-left: 770px;" (click)="save()"  class="btn btn-outline-primary">Submit</button>

@@ -1,0 +1,46 @@
+<h1>List of pensioners</h1>
+<div>
+    <input class="form" type="text" name="search" [(ngModel)]="searchText" 
+    placeholder="Enter filter">
+    <button onclick="">Search</button>
+</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Aadhaar</th>
+            <th>DOB</th>
+            <th>PAN</th>
+            <th>Salary Earned</th>
+            <th>Allowences</th>
+            <th>Pension Type</th>
+            <th>Bank Name</th>
+            <th>Acc No.</th>
+            <th>Public or Private</th>
+            <th>Pension Ammount</th>
+            <th>Bank Service Charge</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let u of pensioners  | filter:searchText; index as i">
+            <td>{{u.name}}</td>
+            <td>{{u.aadhaar}}</td>
+            <td>{{u.date_of_birth}}</td>
+            <td>{{u.pan}}</td>
+            <td>{{u.salary_earned}}</td>
+            <td>{{u.allowences}}</td>
+            <td>{{u.self_family_pension}}</td>
+            <td>{{u.bank_detail.bank_name}}</td>
+            <td>{{u.bank_detail.account_number}}</td>
+            <td>{{u.bank_detail.public_or_private}}</td>
+            <td>{{newPensionAmmount}}</td>
+            <td>{{bankType}}</td>
+            <button type="button" style="margin-left: 10px ; color: blue; background-color: blue;" 
+            (click)="getPensionDetail(u,i)" class="btn-close" aria-label="calculate"></button>
+            <button type="button" style="margin-left: 10px ; color: red; background-color: red;" 
+            (click)="deleteRow(u,i)" class="btn-close" aria-label="Close"></button>
+        </tr>
+    </tbody>
+
+</table>
+

@@ -1,0 +1,6 @@
+projectKey=pension-management-portal
+serverUrl=http://localhost:9000
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=pension-management-portal
+ceTaskId=AYTtApKR064MsUYG_pNP
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYTtApKR064MsUYG_pNP

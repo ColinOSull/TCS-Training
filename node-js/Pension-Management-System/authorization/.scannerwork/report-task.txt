@@ -1,0 +1,6 @@
+projectKey=auth-pensioner
+serverUrl=http://localhost:9000
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=auth-pensioner
+ceTaskId=AYTs719d064MsUYG_pMx
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYTs719d064MsUYG_pMx

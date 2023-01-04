@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "Nishant",
+      "age": "32",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "name": "Raaghav chadda",
+      "age": "50",
+      "gender": "Male",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "mongo-crud-app-project",
+  "version": "1.0.0",
+  "description": "4/10/2022 project",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js"
+  },
+  "author": "colin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20"
+  }
+}

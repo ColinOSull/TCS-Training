@@ -1,0 +1,18 @@
+{
+  "name": "node-rest-api-mongo",
+  "version": "1.0.0",
+  "description": "we are going to create a rest api application and perform crud operation with mongo db",
+  "main": "index.js",
+  "scripts": {
+    "start" :"node index.js"
+  },
+  "author": "colin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20"
+  }
+}
